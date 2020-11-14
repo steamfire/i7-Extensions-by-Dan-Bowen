@@ -1,6 +1,7 @@
+Version 10/201114 of ComputersTeletype by Dan Bowen begins here.
 [Version 8/160611 of Computers by Emily Short begins here.]
-Version 9/201114 of ComputersTeletype by Dan Bowen begins here.
 
+[v10 adds fonts for printed teletype characters]
 [This ComputersTeletype extension v9 by Dan Bowen is based on v8 of Computers by Emily Short.  
 There are only 2 things added: the variables visibleDescriptor and screenDescriptor.  
 The default to "visible" and "screen".  These appear when a multiple-choice menu is displayed.  
@@ -325,11 +326,13 @@ To say options-list of (chosen program - an enumerated multiple-choice program):
 	if the option count is greater than 1:
 		let the referent be the large set;
 	say "[regarding the referent]The following option[s] [are] [visibleDescriptor] on the [screenDescriptor]:[paragraph break]";
+	say "[fixed letter spacing]";
 	let N be 1;
 	repeat through the options table of the chosen program:
 		now the index entry is N;
 		increase N by 1;
 		say "[index entry]: [title entry][line break]";
+	say "[variable letter spacing]";
 	say "[run paragraph on]". 
 
 Table of Sample Deeds
