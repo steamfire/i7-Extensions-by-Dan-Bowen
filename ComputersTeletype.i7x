@@ -1,8 +1,8 @@
-Version 10/201114 of ComputersTeletype by Dan Bowen begins here.
-[Version 8/160611 of Computers by Emily Short begins here.]
-
+Version 11/201202 of ComputersTeletype by Dan Bowen begins here.
+[V11 removed indexed word before text references]
 [v10 adds fonts for printed teletype characters]
 [This ComputersTeletype extension v9 by Dan Bowen is based on v8 of Computers by Emily Short.  
+[Version 8/160611 of Computers by Emily Short begins here.]
 There are only 2 things added: the variables visibleDescriptor and screenDescriptor.  
 The default to "visible" and "screen".  These appear when a multiple-choice menu is displayed.  
 In the story you change them to whatever text you like.  In this case, it's "printed" and "paper.]
@@ -255,7 +255,7 @@ Section 2 - Password Locks
 
 A password-lock program is a kind of software. The software priority of a password-lock program is usually 1.
 	The description of a password-lock program is usually "[regarding the noun]A box on the screen [invite] [us] to type a password to proceed.".
-	A password-lock program has some indexed text called the password.
+	A password-lock program has some text called the password.
 	A password-lock program has some text called the rejection. The rejection of a password-lock program is usually "'Password incorrect.'"
 	A password-lock program has some text called the success. The success of a password-lock program is usually "[regarding the noun]The password field [vanish]."
 
@@ -962,7 +962,7 @@ We also want the computer to revert back to the operating system if switched off
 	Software can be quittable. A software is usually not quittable. PC email and Goggle are quittable.
 
 	A first input handling rule for quittable software (called chosen software):
-		let N be indexed text;
+		let N be text;
 		let N be the topic understood;
 		if N is "quit":
 			reset to operating system;
